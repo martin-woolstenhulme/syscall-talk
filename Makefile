@@ -5,7 +5,7 @@ run: ;
 build: ;
 	docker build -t gcc-strace .
 
-ass-app: ;
+a-app: ;
 	gcc -c test.S
 	ld -o test test.o
 
