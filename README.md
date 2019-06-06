@@ -4,7 +4,7 @@ System calls (syscall) are fundamental to the operating system. We explore how s
 
 # Step-by-Step
 | # | Terminal Command | What it's doing |
-|===|==================|=================|
+| - | ---------------- | --------------- |
 | 0 | `make build` | builds a docker image for this demonstration |
 | 1 | `make run`  | starts a docker container |
 | 2 | `make a-app` | builds an assembly application name *test* in the container |
