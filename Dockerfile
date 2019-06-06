@@ -1,3 +1,3 @@
 FROM gcc:9.1
 
-RUN apt-get update && apt-get install strace && ltrace
+RUN apt-get update && apt-get -y install strace ltrace vim
