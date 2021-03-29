@@ -1,6 +1,6 @@
 
 run: ;
-	docker run -it --security-opt seccomp:unconfined -v "${CURDIR}:/app" -w /app gcc-strace
+	docker run -it --privileged --security-opt seccomp:unconfined -v "${CURDIR}:/app" -w /app gcc-strace
 
 build: ;
 	docker build -t gcc-strace .
